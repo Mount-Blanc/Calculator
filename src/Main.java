@@ -20,6 +20,28 @@ public class Main {
         System.out.print("Enter your choice: ");
         int choice = scanner.nextInt();
 
+        double result;
+        switch (choice) {
+            case 1:
+                result = num1 + num2;
+                System.out.println("Result: " + result);
+                break;
+            case 2:
+                result = num1 - num2;
+                System.out.println("Result: " + result);
+                break;
+                case 3:
+                result = num1 * num2;
+                System.out.println("Result: " + result);
+                break;
+                case 4:
+                result = num1 / num2;
+                System.out.println("Result: " + result);
+                break;
+            default:
+                System.out.println("Invalid choice");
+        }
+
 
 
 
